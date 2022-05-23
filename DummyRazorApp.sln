@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyRazor", "DummyRazor\DummyRazor.csproj", "{7E139347-1CAA-40AC-A28B-140CD68A7C2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E139347-1CAA-40AC-A28B-140CD68A7C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E139347-1CAA-40AC-A28B-140CD68A7C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E139347-1CAA-40AC-A28B-140CD68A7C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E139347-1CAA-40AC-A28B-140CD68A7C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {830B9C25-EB77-4F08-89D8-229B5CCB339A}
+	EndGlobalSection
+EndGlobal
