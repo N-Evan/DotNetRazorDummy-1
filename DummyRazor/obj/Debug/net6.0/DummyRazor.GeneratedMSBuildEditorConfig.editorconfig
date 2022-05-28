@@ -11,7 +11,7 @@ build_property.RootNamespace = DummyRazor
 build_property.ProjectDir = E:\ASP.NET Projects\DotNetRazorDummy-1\DummyRazor\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = E:\ASP.NET Projects\DotNetRazorDummy-1\DummyRazor
 build_property._RazorSourceGeneratorDebug = 
 

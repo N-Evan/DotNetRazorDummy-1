@@ -1,7 +1,12 @@
+using DummyRazor.Model;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+builder.Services.AddDbContext<ApplicationDbContext>(option =>
+    option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 var app = builder.Build();
 
